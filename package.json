@@ -1,29 +1,29 @@
 {
   "name": "hubot-status",
   "description": "A simple status manager script for Hubot.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": [
     "MattSJohnston",
     "patcon@myplanetdigital"
   ],
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts","status","away"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "status",
+    "away"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-example.git"
   },
-
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-example/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6",
     "underscore": "~1.3.3"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -34,9 +34,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
