@@ -64,7 +64,7 @@ module.exports = (robot) ->
     hb_status.update_away msg.message.user.name, null
     msg.send msg.message.user.name + " has returned."
 
-  robot.hear /(^\w+\s?\w+\s?\w+):/i, (msg) ->
+  robot.hear /^@?(\w+?\s?\w+\s?\w+):/i, (msg) ->
     hb_status = new Status robot
     mention = msg.match[1]
     if hb_status.aways_[mention.toLowerCase()]?
