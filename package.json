@@ -1,7 +1,7 @@
 {
   "name": "hubot-status",
   "description": "A simple status manager script for Hubot.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": [
     "MattSJohnston",
     "patcon@myplanetdigital"
